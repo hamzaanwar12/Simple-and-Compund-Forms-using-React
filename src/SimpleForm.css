@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    background-color: cadetblue;
+  }
+  form{
+    width: 60%;
+    margin: auto;
+    margin-top: 7rem;
+    border-radius: 1rem;
+    background-color: white;
+  }
+  
+  div.input,div.button{
+    display: flex;
+    padding: 1rem;
+  }
+  
+  input,button{
+    font-size: 17px;
+    height: 3rem;
+    border-radius: 7px;
+    outline: none;
+  }
+  
+  input::placeholder{
+    font-style: italic;
+  }
+  
+  input{
+    width: 98%;
+  }
+  button{
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    width: 8rem;
+  }
+  
+  button:active{
+    border: 1px solid lightslategrey;
+    background-color: white;
+    color: blue;
+  }
+  
+  
+  div.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+  div.button{
+    justify-content: right;
+  }
+  
+  input.blue{
+    border: 2px solid blue;
+  }
+  
+  input.red{
+    border-color: red;
+    background-color: rgba(230, 24, 24, 0.247);
+  }
+  
+  span{
+    color: red;
+  }

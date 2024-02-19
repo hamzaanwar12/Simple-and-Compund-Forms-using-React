@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    background-color: cadetblue;
+  }
+  form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 7rem;
+    border-radius: 1rem;
+    background-color: white;
+    padding: 1rem;
+  }
+  
+  div.input,div.button,div.email{
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  input,button{
+    font-size: 17px;
+    height: 3rem;
+    border-radius: 7px;
+    outline: none;
+  }
+  
+  input::placeholder{
+    font-style: italic;
+  }
+
+  div.email,div.module{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  div.module{
+    width: 48%;
+  }
+  div.input{
+    width: 100%;
+  }
+div.mail{
+    
+    width: 60%;
+}
+
+  button{
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    width: 8rem;
+  }
+  
+  button:active{
+    border: 1px solid lightslategrey;
+    background-color: white;
+    color: blue;
+  }
+  
+  
+  div.input,div.email{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between
+  }
+  div.button{
+    justify-content: right;
+  }
+  
+  input.blue{
+    border: 2px solid blue;
+  }
+  
+  input.red{
+    border-color: red;
+    background-color: rgba(230, 24, 24, 0.247);
+  }
+  
+  span{
+    color: red;
+    /* display: block; */
+  }
